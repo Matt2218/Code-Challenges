@@ -1,0 +1,9 @@
+﻿<Properties StartupConfiguration="{C972DA78-1EFF-4CFD-993D-E1C2A8B0D5D8}|Default">
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.pangram PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

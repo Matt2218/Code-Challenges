@@ -1,0 +1,5 @@
+/Users/MattJennell/Projects/pangram/pangram/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/MattJennell/Projects/pangram/pangram/bin/Debug/pangram.exe.mdb
+/Users/MattJennell/Projects/pangram/pangram/bin/Debug/pangram.exe
+/Users/MattJennell/Projects/pangram/pangram/obj/x86/Debug/pangram.exe
+/Users/MattJennell/Projects/pangram/pangram/obj/x86/Debug/pangram.exe.mdb

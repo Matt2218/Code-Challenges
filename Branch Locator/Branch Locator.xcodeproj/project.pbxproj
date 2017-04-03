@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		334BEEE91E8FD3FB000C0CC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334BEEE81E8FD3FB000C0CC0 /* AppDelegate.swift */; };
+		334BEEEB1E8FD3FB000C0CC0 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334BEEEA1E8FD3FB000C0CC0 /* MapVC.swift */; };
+		334BEEEE1E8FD3FB000C0CC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 334BEEEC1E8FD3FB000C0CC0 /* Main.storyboard */; };
+		334BEEF01E8FD3FB000C0CC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 334BEEEF1E8FD3FB000C0CC0 /* Assets.xcassets */; };
+		334BEEF31E8FD3FB000C0CC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 334BEEF11E8FD3FB000C0CC0 /* LaunchScreen.storyboard */; };
+		334BEEFE1E8FD3FB000C0CC0 /* Branch_LocaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334BEEFD1E8FD3FB000C0CC0 /* Branch_LocaterTests.swift */; };
+		334BEF091E8FD3FB000C0CC0 /* Branch_LocaterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334BEF081E8FD3FB000C0CC0 /* Branch_LocaterUITests.swift */; };
+		334BEF1E1E9020E5000C0CC0 /* Branch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334BEF1D1E9020E5000C0CC0 /* Branch.swift */; };
+		334BEF201E902AC5000C0CC0 /* BranchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334BEF1F1E902AC5000C0CC0 /* BranchVC.swift */; };
+		334BEF241E903386000C0CC0 /* Columbus, OH, USA.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 334BEF231E903386000C0CC0 /* Columbus, OH, USA.gpx */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		334BEEFA1E8FD3FB000C0CC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 334BEEDD1E8FD3FB000C0CC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 334BEEE41E8FD3FB000C0CC0;
+			remoteInfo = "Branch Locater";
+		};
+		334BEF051E8FD3FB000C0CC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 334BEEDD1E8FD3FB000C0CC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 334BEEE41E8FD3FB000C0CC0;
+			remoteInfo = "Branch Locater";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		334BEEE51E8FD3FB000C0CC0 /* Branch Locator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Branch Locator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		334BEEE81E8FD3FB000C0CC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		334BEEEA1E8FD3FB000C0CC0 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		334BEEED1E8FD3FB000C0CC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		334BEEEF1E8FD3FB000C0CC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		334BEEF21E8FD3FB000C0CC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		334BEEF41E8FD3FB000C0CC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		334BEEF91E8FD3FB000C0CC0 /* Branch LocatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Branch LocatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		334BEEFD1E8FD3FB000C0CC0 /* Branch_LocaterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Branch_LocaterTests.swift; sourceTree = "<group>"; };
+		334BEEFF1E8FD3FB000C0CC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		334BEF041E8FD3FB000C0CC0 /* Branch LocatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Branch LocatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		334BEF081E8FD3FB000C0CC0 /* Branch_LocaterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Branch_LocaterUITests.swift; sourceTree = "<group>"; };
+		334BEF0A1E8FD3FB000C0CC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		334BEF1D1E9020E5000C0CC0 /* Branch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Branch.swift; sourceTree = "<group>"; };
+		334BEF1F1E902AC5000C0CC0 /* BranchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BranchVC.swift; sourceTree = "<group>"; };
+		334BEF231E903386000C0CC0 /* Columbus, OH, USA.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Columbus, OH, USA.gpx"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		334BEEE21E8FD3FB000C0CC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		334BEEF61E8FD3FB000C0CC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		334BEF011E8FD3FB000C0CC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		334BEEDC1E8FD3FB000C0CC0 = {
+			isa = PBXGroup;
+			children = (
+				334BEEE71E8FD3FB000C0CC0 /* Branch Locater */,
+				334BEEFC1E8FD3FB000C0CC0 /* Branch LocaterTests */,
+				334BEF071E8FD3FB000C0CC0 /* Branch LocaterUITests */,
+				334BEEE61E8FD3FB000C0CC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		334BEEE61E8FD3FB000C0CC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				334BEEE51E8FD3FB000C0CC0 /* Branch Locator.app */,
+				334BEEF91E8FD3FB000C0CC0 /* Branch LocatorTests.xctest */,
+				334BEF041E8FD3FB000C0CC0 /* Branch LocatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		334BEEE71E8FD3FB000C0CC0 /* Branch Locater */ = {
+			isa = PBXGroup;
+			children = (
+				334BEF251E903CFA000C0CC0 /* Resources */,
+				334BEF1C1E9020C2000C0CC0 /* Models */,
+				334BEEEA1E8FD3FB000C0CC0 /* MapVC.swift */,
+				334BEF1F1E902AC5000C0CC0 /* BranchVC.swift */,
+				334BEEEC1E8FD3FB000C0CC0 /* Main.storyboard */,
+			);
+			path = "Branch Locater";
+			sourceTree = "<group>";
+		};
+		334BEEFC1E8FD3FB000C0CC0 /* Branch LocaterTests */ = {
+			isa = PBXGroup;
+			children = (
+				334BEEFD1E8FD3FB000C0CC0 /* Branch_LocaterTests.swift */,
+				334BEEFF1E8FD3FB000C0CC0 /* Info.plist */,
+			);
+			path = "Branch LocaterTests";
+			sourceTree = "<group>";
+		};
+		334BEF071E8FD3FB000C0CC0 /* Branch LocaterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				334BEF081E8FD3FB000C0CC0 /* Branch_LocaterUITests.swift */,
+				334BEF0A1E8FD3FB000C0CC0 /* Info.plist */,
+			);
+			path = "Branch LocaterUITests";
+			sourceTree = "<group>";
+		};
+		334BEF1C1E9020C2000C0CC0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				334BEF1D1E9020E5000C0CC0 /* Branch.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		334BEF251E903CFA000C0CC0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				334BEEE81E8FD3FB000C0CC0 /* AppDelegate.swift */,
+				334BEEEF1E8FD3FB000C0CC0 /* Assets.xcassets */,
+				334BEF231E903386000C0CC0 /* Columbus, OH, USA.gpx */,
+				334BEEF11E8FD3FB000C0CC0 /* LaunchScreen.storyboard */,
+				334BEEF41E8FD3FB000C0CC0 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		334BEEE41E8FD3FB000C0CC0 /* Branch Locator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 334BEF0D1E8FD3FB000C0CC0 /* Build configuration list for PBXNativeTarget "Branch Locator" */;
+			buildPhases = (
+				334BEEE11E8FD3FB000C0CC0 /* Sources */,
+				334BEEE21E8FD3FB000C0CC0 /* Frameworks */,
+				334BEEE31E8FD3FB000C0CC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Branch Locator";
+			productName = "Branch Locater";
+			productReference = 334BEEE51E8FD3FB000C0CC0 /* Branch Locator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		334BEEF81E8FD3FB000C0CC0 /* Branch LocatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 334BEF101E8FD3FB000C0CC0 /* Build configuration list for PBXNativeTarget "Branch LocatorTests" */;
+			buildPhases = (
+				334BEEF51E8FD3FB000C0CC0 /* Sources */,
+				334BEEF61E8FD3FB000C0CC0 /* Frameworks */,
+				334BEEF71E8FD3FB000C0CC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				334BEEFB1E8FD3FB000C0CC0 /* PBXTargetDependency */,
+			);
+			name = "Branch LocatorTests";
+			productName = "Branch LocaterTests";
+			productReference = 334BEEF91E8FD3FB000C0CC0 /* Branch LocatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		334BEF031E8FD3FB000C0CC0 /* Branch LocatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 334BEF131E8FD3FB000C0CC0 /* Build configuration list for PBXNativeTarget "Branch LocatorUITests" */;
+			buildPhases = (
+				334BEF001E8FD3FB000C0CC0 /* Sources */,
+				334BEF011E8FD3FB000C0CC0 /* Frameworks */,
+				334BEF021E8FD3FB000C0CC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				334BEF061E8FD3FB000C0CC0 /* PBXTargetDependency */,
+			);
+			name = "Branch LocatorUITests";
+			productName = "Branch LocaterUITests";
+			productReference = 334BEF041E8FD3FB000C0CC0 /* Branch LocatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		334BEEDD1E8FD3FB000C0CC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Matt Jennell";
+				TargetAttributes = {
+					334BEEE41E8FD3FB000C0CC0 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 283C8TD9F4;
+						ProvisioningStyle = Automatic;
+					};
+					334BEEF81E8FD3FB000C0CC0 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 283C8TD9F4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 334BEEE41E8FD3FB000C0CC0;
+					};
+					334BEF031E8FD3FB000C0CC0 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 283C8TD9F4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 334BEEE41E8FD3FB000C0CC0;
+					};
+				};
+			};
+			buildConfigurationList = 334BEEE01E8FD3FB000C0CC0 /* Build configuration list for PBXProject "Branch Locator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 334BEEDC1E8FD3FB000C0CC0;
+			productRefGroup = 334BEEE61E8FD3FB000C0CC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				334BEEE41E8FD3FB000C0CC0 /* Branch Locator */,
+				334BEEF81E8FD3FB000C0CC0 /* Branch LocatorTests */,
+				334BEF031E8FD3FB000C0CC0 /* Branch LocatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		334BEEE31E8FD3FB000C0CC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334BEF241E903386000C0CC0 /* Columbus, OH, USA.gpx in Resources */,
+				334BEEF31E8FD3FB000C0CC0 /* LaunchScreen.storyboard in Resources */,
+				334BEEF01E8FD3FB000C0CC0 /* Assets.xcassets in Resources */,
+				334BEEEE1E8FD3FB000C0CC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		334BEEF71E8FD3FB000C0CC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		334BEF021E8FD3FB000C0CC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		334BEEE11E8FD3FB000C0CC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334BEF201E902AC5000C0CC0 /* BranchVC.swift in Sources */,
+				334BEEEB1E8FD3FB000C0CC0 /* MapVC.swift in Sources */,
+				334BEF1E1E9020E5000C0CC0 /* Branch.swift in Sources */,
+				334BEEE91E8FD3FB000C0CC0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		334BEEF51E8FD3FB000C0CC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334BEEFE1E8FD3FB000C0CC0 /* Branch_LocaterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		334BEF001E8FD3FB000C0CC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334BEF091E8FD3FB000C0CC0 /* Branch_LocaterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		334BEEFB1E8FD3FB000C0CC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 334BEEE41E8FD3FB000C0CC0 /* Branch Locator */;
+			targetProxy = 334BEEFA1E8FD3FB000C0CC0 /* PBXContainerItemProxy */;
+		};
+		334BEF061E8FD3FB000C0CC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 334BEEE41E8FD3FB000C0CC0 /* Branch Locator */;
+			targetProxy = 334BEF051E8FD3FB000C0CC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		334BEEEC1E8FD3FB000C0CC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				334BEEED1E8FD3FB000C0CC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		334BEEF11E8FD3FB000C0CC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				334BEEF21E8FD3FB000C0CC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		334BEF0B1E8FD3FB000C0CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		334BEF0C1E8FD3FB000C0CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		334BEF0E1E8FD3FB000C0CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 283C8TD9F4;
+				INFOPLIST_FILE = "Branch Locater/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mattjennell.Branch-Locater";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		334BEF0F1E8FD3FB000C0CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 283C8TD9F4;
+				INFOPLIST_FILE = "Branch Locater/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mattjennell.Branch-Locater";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		334BEF111E8FD3FB000C0CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 283C8TD9F4;
+				INFOPLIST_FILE = "Branch LocaterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mattjennell.Branch-LocaterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Branch Locator.app/Branch Locator";
+			};
+			name = Debug;
+		};
+		334BEF121E8FD3FB000C0CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 283C8TD9F4;
+				INFOPLIST_FILE = "Branch LocaterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mattjennell.Branch-LocaterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Branch Locator.app/Branch Locator";
+			};
+			name = Release;
+		};
+		334BEF141E8FD3FB000C0CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 283C8TD9F4;
+				INFOPLIST_FILE = "Branch LocaterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mattjennell.Branch-LocaterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Branch Locater";
+			};
+			name = Debug;
+		};
+		334BEF151E8FD3FB000C0CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 283C8TD9F4;
+				INFOPLIST_FILE = "Branch LocaterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mattjennell.Branch-LocaterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Branch Locater";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		334BEEE01E8FD3FB000C0CC0 /* Build configuration list for PBXProject "Branch Locator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				334BEF0B1E8FD3FB000C0CC0 /* Debug */,
+				334BEF0C1E8FD3FB000C0CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		334BEF0D1E8FD3FB000C0CC0 /* Build configuration list for PBXNativeTarget "Branch Locator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				334BEF0E1E8FD3FB000C0CC0 /* Debug */,
+				334BEF0F1E8FD3FB000C0CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		334BEF101E8FD3FB000C0CC0 /* Build configuration list for PBXNativeTarget "Branch LocatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				334BEF111E8FD3FB000C0CC0 /* Debug */,
+				334BEF121E8FD3FB000C0CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		334BEF131E8FD3FB000C0CC0 /* Build configuration list for PBXNativeTarget "Branch LocatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				334BEF141E8FD3FB000C0CC0 /* Debug */,
+				334BEF151E8FD3FB000C0CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 334BEEDD1E8FD3FB000C0CC0 /* Project object */;
+}
